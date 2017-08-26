@@ -1,4 +1,4 @@
-# Static-Site
+# Static-Page
 Custom CSS Static Site
 
 I made this webpage to practice designing modular and flexable static pages
