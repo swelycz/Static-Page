@@ -1,0 +1,333 @@
+@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+body.home {
+	background: url("images/tracks.jpg");
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
+}
+.headerMainContainer {
+	width: 100%;
+	height: 40px;
+	background: rgba(51,51,51,0.8);
+	position: fixed;
+	z-index: 50;
+}
+.homeButton:hover {
+	background-color: #FFFFFF;
+}
+.homeButton {
+	height: 40px;
+	width: 40px;
+	background-color: #333333;
+	position: fixed;
+	transition: background-color 0.3s;
+}
+.homeButton1391 {
+	visibility: visible;
+}
+.homeButton1390 {
+	visibility: hidden;
+	float: left;
+}
+.homeImgContainer {
+	position: relative;
+}
+.homeButton:hover .homeImgWhite {
+	opacity: 0;
+}
+.homeButton:hover .homeImgBlack {
+	opacity: 1;
+}
+.homeImgWhite {
+	background: url("images/home-white.png");
+	opacity: 1;
+}
+.homeImgBlack {
+	background: url("images/home-black.png");
+	opacity: 0;
+}
+.homeImg {
+	width: 40px;
+	height: 40px;
+	background-size: 100% 100%;
+	position: absolute;
+	transition: opacity 0.3s, background 0.3s;
+}
+.headerContainer {
+	width: 1300px;
+	height: 100%;
+	background-color: #444444;
+	margin: 0 auto;
+}
+.navBar {
+	width: 500px;
+	height: 100%;
+	display: table;
+	float: left;
+}
+.navItem:hover {
+	background-color: #333333;
+}
+.navItem {
+	display: table-cell;
+	float: left;
+	width: 125px;
+	height: 40px;
+	background-color: #444444;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+	transition: background-color 0.3s;
+}
+.navItemText {
+	text-decoration: none;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 4px 26px 4px 26px;
+}
+nav.navBar ul.navItem:before, nav.navBar ul.navItem:after {
+	position: absolute;
+    opacity: 0;
+    width: 2px;
+    height: 0;
+    content: '';
+    background: #FFF;
+    bottom: 0px;
+    transition: all 0.3s;
+}
+nav.navBar ul.navItem:before {
+	left: 0px;
+}
+nav.navBar ul.navItem:after {
+	right: 0px;
+}
+nav.navBar ul.navItem:hover:before, nav.navBar ul.navItem:hover:after {
+	opacity: 1;
+    height: 100%;
+}
+.navItem:hover .subItem {
+	visibility: visible;
+	opacity: 1;
+}
+.subItem:hover {
+	background-color: #666666;
+}
+.subItem {
+	width: 200px;
+	height: 40px;
+	background-color: #555555;
+	line-height: 40px;
+	text-align: left;
+	visibility: hidden;
+	opacity: 0;
+	position: relative;
+	transition: all 0.3s;
+}
+.subItemText {
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.subAdj {
+	margin-top: -1px;
+}
+ul.navItem li.subItem:before, ul.navItem li.subItem:after {
+	position: absolute;
+    opacity: 0;
+    width: 2px;
+    height: 0;
+    content: '';
+    background: #FFF;
+    bottom: 0px;
+    transition: all 0.3s;
+}
+ul.navItem li.subItem:before {
+	left: 0px;
+}
+ul.navItem li.subItem:after {
+	right: 0px;
+}
+ul.navItem li.subItem:hover:before, ul.navItem li.subItem:hover:after {
+	opacity: 1;
+    height: 100%;
+}
+#logSignContainer {
+	width: 200px;
+	height: 100%;
+	float: right;
+	transition: all 0.3s;
+}
+#loginContainer:hover {
+	background-color: #333333;
+}
+#loginContainer:active {
+	background-color: #555555;
+	transition: background-color 0s, opacity 0s;
+}
+#loginContainer {
+	width: 50%;
+	height: 100%;
+	float: right;
+	background-color: #444444;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+#signupContainer:hover {
+	background-color: #333333;
+}
+#signupContainer {
+	background-color: #444444;
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+div#signupContainer:before, div#signupContainer:after {
+	position: absolute;
+    opacity: 0;
+    width: 2px;
+    height: 0;
+    content: '';
+    background: #FFF;
+    bottom: 0px;
+    transition: all 0.3s;
+}
+div#signupContainer:before {
+	left: 0px;
+}
+div#signupContainer:after {
+	right: 0px;
+}
+div#signupContainer:hover:before, div#signupContainer:hover:after {
+	opacity: 1;
+    height: 100%;
+}
+div.headerContainer div#loginContainer:before, div.headerContainer div#loginContainer:after {
+	position: absolute;
+    opacity: 0;
+    width: 2px;
+    height: 0;
+    content: '';
+    background: #FFF;
+    bottom: 0px;
+    transition: all 0.3s;
+}
+div.headerContainer div#loginContainer:before {
+	left: 0px;
+}
+div.headerContainer div#loginContainer:after {
+	right: 0px;
+}
+div.headerContainer div#loginContainer:hover:before, div.headerContainer div#loginContainer:hover:after {
+	opacity: 1;
+    height: 100%;
+}
+.logsignText {
+	font-size: 20px;
+	color: #FFFFFF;
+	position: relative;
+	padding: 4px 16px 4px 16px;
+}
+#loginBox {
+	width: 350px;
+	height: 170px;
+	background-color: #333333;
+	position: fixed;
+	margin-left: 900px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 5;
+	padding-left: 50px;
+	padding-top: 30px;
+	font-size: 16px;
+	color: #FFFFFF;
+	transition: all 0.3s;
+}
+#signupBox {
+	width: 350px;
+	height: 170px;
+	background-color: #333333;
+	position: fixed;
+	margin-left: 900px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 5;
+	padding-left: 50px;
+	padding-top: 30px;
+	transition: all 0.3s;
+}
+.logsignTextbox {
+	background-color: #333333;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.contentWrapper {
+	padding-top: 40px;
+	height: 1880px;
+	position: relative;
+}
+.contentContainer {
+	position: absolute;
+	width: 1300px;
+	height: 1880px;
+	background: rgba(68,68,68,0.8);
+	margin-left: -650px;
+	left: 50%;
+}
+.contentWrapper2 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.testText {
+	margin-top: 20%;
+	padding: 20px;
+	background: rgba(255,255,255,0.8);
+	position: absolute;
+	z-index: 2;
+}
+.footerMainContainer {
+	width: 100%;
+	height: 100px;
+	background-color: #333333;
+	-moz-box-shadow: inset 0 0 10px #000000;
+   	-webkit-box-shadow: inset 0 0 10px #000000;
+   	box-shadow: inset 0 0 10px #000000;
+}
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.link-spanner {
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+@media screen and (max-width: 1390px){
+	.homeButton1390 {
+		visibility: visible;
+		position: static;
+	}
+	.homeButton1391 {
+		visibility: hidden;
+	}
+}
