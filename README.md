@@ -15,3 +15,5 @@ For the home button on the top left, I used two pictures and transition between 
 I also have the home button "pop" into the shaded part of the header when resizing the width of the window smaller than 1390px. I do this by using two different home buttons, one is visible while the other isn't, giving the illusion that it's the same home button moving or "popping" into place
 
 For the body background, I chose a fixed background attachment, as well as making the overall content container translucent, to give the impression that the webpage's content is skating over a window pane overlooking a landscape. This effect, in my opinion, makes the page feel like it has more visual depth and isn't as claustrophobic feeling as one with a one dimensional background
+
+**This site was NOT developed for mobile devices**
