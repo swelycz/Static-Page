@@ -5,6 +5,8 @@ I made this webpage to practice designing modular and flexable static pages
 
 This helped me better understand the value of static designs using centered content with buffer whitespace on either side
 
+All CSS in the site was hand written and I came up with the site design
+
 I used javascript for the login and sign up box that appears when you click either button in the top right. The javascript makes the box appear, and stay there unless the user clicks outside of the box, in which case the box disappears again
 
 The login/signup functionality isn't implemented with this page only because I made the site to gain experience with static page creation, not database usage and/or the implementation of user account functionality
